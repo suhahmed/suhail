@@ -1,3 +1,5 @@
+Cloning the GitRepo using the HTTPS URL
+=======================================
 [root@demo ~]# git clone https://github.com/suhahmed/suhail
 Initialized empty Git repository in /root/suhail/.git/
 remote: Counting objects: 6, done.
