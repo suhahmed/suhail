@@ -1,0 +1,20 @@
+[root@demo ~]# git clone https://github.com/suhahmed/suhail
+Initialized empty Git repository in /root/suhail/.git/
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (6/6), done.
+[root@demo ~]# ll
+total 36
+-rw-------. 1 root root 1999 Mar  7  2014 anaconda-ks.cfg
+-rw-r--r--. 1 root root 9607 Mar  7  2014 install.log
+-rw-r--r--. 1 root root 3970 Mar  7  2014 install.log.syslog
+-rw-r--r--. 1 root root 5712 Apr 12  2013 puppetlabs-release-6-7.noarch.rpm
+-rw-r--r--. 1 root root  277 Feb 20 05:48 rajnikanth.pp
+drwxr-xr-x. 3 root root 4096 Feb 20 06:29 suhail
+[root@demo ~]# cd suhail/
+[root@demo suhail]# ll
+total 8
+-rw-r--r--. 1 root root 543 Feb 20 06:29 puppet-installation
+-rw-r--r--. 1 root root  29 Feb 20 06:29 README.md
+[root@demo suhail]#
