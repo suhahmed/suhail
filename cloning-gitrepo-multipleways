@@ -1,0 +1,3 @@
+Git has a number of different transfer protocols you can use. 
+1. http(s):// - uses the https protocol
+2. user@server:/path.git - uses the SSH transfer protocol.
