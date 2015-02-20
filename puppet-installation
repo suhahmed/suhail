@@ -1,0 +1,22 @@
+cd learn
+mkdir box1
+cd box1
+vagrant box list
+vagrant init puppet
+vagrant up
+vagrant ssh
+export editor=vi
+# Edit  /etc/sysconfig/network
+# Set hostname
+sudo hostname demo 
+# Edit /etc/hosts 
+# add entry for demo.example.com
+sudo /etc/init.d/network restart
+#logout, login, validate
+# If you are running behind a http proxy, setup proxy in /etc/yum.conf and also on your command line (bashrc)
+hostname
+sudo rpm -ivh http://yum.puppetlabs.com/puppetlabs-release-el-6.noarch.rpm
+sudo yum install puppet
+#validate
+puppet --version
+facter --version
